@@ -2,7 +2,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // APIKEY OPEN AI
-global.jeropenai  = "ISI APIKEY LU AMBIL DI OPENAI.COM" // ISI APIKEY LU
+global.jeropenai  = "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" // ISI APIKEY LU
 
 // API , BAGIAN SINI JAN UBAH SAMA SEKALI \\
 global.APIs = {
@@ -18,40 +18,39 @@ global.APIKeys = {
 
 global.btz = 'mN8lnCcw'// KEY LU
 
-global.namabot = "Sachi Umino" // UBAH JADI NAMA LU
-global.namaowner = "LynnZxD" // NAMA OWNER
+global.namabot = "Refa" // UBAH JADI NAMA LU
+global.namaowner = "rzz" // NAMA OWNER
 global.footer_text = "©" + namabot // NAMA BOT
 global.pp_bot = fs.readFileSync("./image/allmenubot.jpg") // FOTO BOT MAX 50KB BIAR GA DELAY
 global.qris = fs.readFileSync("./image/qris.jpg") // FOTO QRIS MAX 50KB BIAR GA DELLAY
-global.owner = ['628999811229', '628999811229'] // UBAH NOMOR YANG MAU DI JADIKAN OWNER
-global.owner2 = ['6283167532721']
-global.pairingNumber = "" // ISI NOMOR BOT LU
+global.owner = ['6285797208971']// UBAH NOMOR YANG MAU DI JADIKAN OWNER
+global.owner2 = ['6285722050975']
+global.pairingNumber = "6285722050975" // ISI NOMOR BOT LU
 // - \\
 global.sessionName = 'session' // GAK USAH UBAH
 global.prefa = ['', '!', '.', '🐦', '🐤', '🗿'] // GAK USAH UBAH
 global.sewabot = ("SEWA CHAT OWNER") // ISI HARGA SEWA BOT LU
-global.grubbot = (`*INI KAK LINK GRUB NYA*\n\nhttps://chat.whatsapp.com/BvslVKmqBukIhQBlKnMVM9`) // GANTI LINK GRUB BOT LU \\
 // -- \\
 // FALSE OR TRUE \\
 // TRUE = AKTIF
 // FALSE = MATI
 
-global.autoTyping = false // BEBAS
+global.autoTyping = true // BEBAS
 global.welcome = false // KALO MAU AUTO WELCOME UBAH JADI true
 global.left = false // KALO MAU AUTO LEFT UBAH JADI true
 global.anticall = true // TRUE AJA
-global.autoblok212 = false // BEBAS
-global.autoread = false // BEBAS
+global.autoblok212 = true // BEBAS
+global.autoread = true // BEBAS
 global.autorespon = false // BEBAS
 global.onlyprem = true // BEBAS
 global.onlygrub = true // BEBAS
 global.onlypc = false // BEBAS
-global.antispam = false // TRUE KALO MAU GA DI SPAM
+global.antispam = true // TRUE KALO MAU GA DI SPAM
 
 // - \\
 // PEMISAH \\
-global.packname = '© Sachi Umino' //sticker wm ubah
-global.author = 'Di Buat Oleh LynnZxD' //sticker wm ganti nama kalian
+global.packname = '© refa' //sticker wm ubah
+global.author = 'Di Buat Oleh rzz' //sticker wm ganti nama kalian
 
 // PANEL
 global.seller = ['6283167532721', '628999811229', '6283167532721'] // UBAH NOMOR YANG MAU DI JADIKAN SELLER PANEL
